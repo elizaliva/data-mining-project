@@ -40,4 +40,13 @@ The following machine learning models were used:
 Hyperparameter tuning was performed using GridSearchCV.
 
 ## Conclusion
-This project demonstrated how exploratory data analysis and preprocessing are essential steps before building machine learning models. The results show that handling imbalanced data and missing values is critical for improving model performance.
+
+This project demonstrates the importance of data preprocessing and handling class imbalance in real-world machine learning problems. 
+
+While the model achieved strong overall accuracy, it struggled to identify actual clicks due to the highly imbalanced dataset. This highlights the need to focus on metrics such as precision, recall, and F1-score rather than accuracy alone.
+
+Future improvements should focus on better handling imbalance and exploring more advanced models.
+
+## Notes
+
+The trained model file (final_model.pkl) is not included due to GitHub file size limits.
