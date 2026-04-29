@@ -1,8 +1,10 @@
 # Online Advertisement Click Prediction
 
 
-## Open Notebook in Google Colab
-[Click here to open the notebook](https://colab.research.google.com/github/elizaliva/data-mining-project/blob/main/DataMining_Project_Template_Spring_2026_(1)_2.ipynb)
+## Project Notebook
+
+Click here to view the notebook:  
+[Open Notebook](https://github.com/elizaliva/data-mining-project/blob/main/DataMining_Project_Template_Spring_2026_Final.ipynb)
 
 ## Project Overview
 This project focuses on predicting whether a user will click on an online advertisement (is_click). The dataset includes user demographics, product information, and campaign details. The goal is to build and evaluate machine learning models to predict user click behavior.
