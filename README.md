@@ -38,10 +38,7 @@ Key findings:
 ## Models
 The following machine learning models were used:
 - Logistic Regression
-- Decision Tree
 - Random Forest
-- K-Nearest Neighbors
-
 Hyperparameter tuning was performed using GridSearchCV.
 
 ## Conclusion
