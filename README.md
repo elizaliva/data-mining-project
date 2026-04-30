@@ -25,10 +25,15 @@ AutoViz was used to explore the dataset and identify patterns.
 
 Key findings:
 - The target variable is imbalanced (most users do not click ads)
-- Some features have many missing values (e.g., product_category_2)
-- There are duplicate rows and outliers in some features
 - The dataset contains both numerical and categorical variables
-The trained model file (`final_model.pkl`) is not included due to GitHub file size limits.
+- The model achieved 79% accuracy, but performance on click prediction is weak (F1: 0.12, Precision: 0.08, Recall: 0.21). This indicates the model is biased toward predicting non-clicks due to class imbalance.
+- Feature importance shows that timing (hour, day) is more influential than user characteristics.
+
+## Recommendations
+- Optimize ad timing to focus on high-engagement periods
+- Improve model performance using class balancing and better algorithms (e.g., XGBoost)
+- Focus on precision & recall, not just accuracy
+- Reduce wasted ad spend by improving click prediction
 
 ## Models
 The following machine learning models were used:
@@ -45,7 +50,9 @@ This project demonstrates the importance of data preprocessing and handling clas
 
 While the model achieved strong overall accuracy, it struggled to identify actual clicks due to the highly imbalanced dataset. This highlights the need to focus on metrics such as precision, recall, and F1-score rather than accuracy alone.
 
-Future improvements should focus on better handling imbalance and exploring more advanced models.
+## Future improvements
+
+Future improvements should focus on better handling class imbalance and exploring more advanced models. Additionally, researching and incorporating alternative datasets—potentially smaller but more balanced and focused on a specific type of advertisement—could provide deeper insights into customer behavior and improve prediction performance.
 
 ## Notes
 
